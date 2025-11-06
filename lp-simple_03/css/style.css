@@ -1,0 +1,76 @@
+@charset "utf-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+}
+
+.inner {
+  width: 1000px;
+  margin: auto;
+}
+
+header {
+  background: url("../img/hero.jpg") center/cover no-repeat;
+  color: #fff;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  margin-bottom: 1em;
+}
+
+section p {
+  line-height: 1.8;
+}
+
+#first {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  background: url("https://placehold.jp/3d4070/ffffff/400x400.png") left center no-repeat;
+}
+
+#first .inner {
+  width: 500px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+#first p {
+    margin: center;
+}
+
+#second .inner ,
+#third .inner{
+    text-align: center;
+}
+
+
+#second p,
+#third p {
+    margin-bottom: 3em;
+}
+
+#second {
+    background: #f4f4f4;
+    padding-bottom: 0;
+}
+
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
